@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 body{
-background-color: black;
+background-color: rgb(83, 83, 83);;
 color: white;
 }
 nav{
-   background-color: rgb(83, 83, 83);
+   background-color:black; 
     margin-bottom: 20px;
 
 }
@@ -38,9 +38,9 @@ main li a:hover{
     text-decoration: underline;
 }
 figure{
-    width: 100%; /* Responsive images */
-    max-width: 500px; /* Maximum size */
-    margin: 10px auto; /* Center images */
+    width: 100%; 
+    max-width: 500px; 
+    margin: 10px auto; 
 }
 figure img{
    border-radius: 10px;
@@ -69,3 +69,15 @@ button {
     border-radius: 5px; 
     cursor: pointer; 
 }
+@media only screen and (max-width: 600px) {
+    figure{
+        max-height: 400px;
+    
+    }
+    figure img{
+       border-radius: 10px;
+      align-items: center;
+       max-width: 350px;
+       
+    }
+  }
