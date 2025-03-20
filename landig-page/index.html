@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dog Adoption Agency</title>
+    <link rel="stylesheet" href="style.css"/>
   </head>
 
   <body>
     <header>
+      <div>
       <h1>Find Your Furry Friend!</h1>
       <p>We are the world's preeminent pet focused marketing agency.</p>
+        </div>
     </header>
     <main>
+      <section id="reason">
       <h2>Why Adopt From Us?</h2>
       <ul>
         <li>Comprehensive Veterinary Checks</li>
@@ -19,20 +23,26 @@
         <li>You save a life</li>
         <li>You help break the cycle of pet overpopulation</li>
       </ul>
-      <section>
-        <h2>Meet Our Dogs</h2>
-        <img src="https://placedog.net/640/480?r" alt="Dog" />
-        <h2>Get in Touch</h2>
       </section>
-      <section>
+      <section id="s-gallary">
+        <h2 id="meet-dog">Meet Our Dogs</h2>
+        <div id="gallary">
+        <img src="https://placedog.net/640/480?r" alt="Dog" />
+        <img src="https://placedog.net/400/409?id=154" alt="Dog" />
+        <img src="https://placedog.net/400/392?id=15" alt="Dog" />
+        <img src="https://placedog.net/500/280" alt="dog picture Gallary"/>
+        </div>
+      </section>
+      <section id="form">
         <form>
+          <h2>Get in Touch</h2>
           Name : <input type="text" /><br />
           <br />
           Email :<input type="text" /><br />
           <br />
           Massage : <textarea></textarea><br />
           <br />
-          <button type="submit">Submit</button>
+          <button type="submit" id="submit">Submit</button>
         </form>
       </section>
     </main>
