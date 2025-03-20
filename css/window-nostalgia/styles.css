@@ -3,11 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: lightskyblue;
+}
 .window {
+  border: 3px solid white;
+  border-bottom: 3px solid #424141;
+  border-right: 3px solid #424141;
   height: 200px;
-  width: 40%;
+  width: 50%;
+  min-width: 400px;
   position: relative;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   background-color: #c0c0c0;
@@ -26,7 +32,7 @@ p {
   font-family: "Helvetica Neue", sans-serif;
   vertical-align: middle;
 }
-#fix{
+#table{
   margin: 20px;
   align-items: center;
 }
@@ -41,7 +47,9 @@ button {
   bottom: 30px;
   padding: 10px 20px;
   background-color: #c0c0c0;
-  box-shadow: 2px 2px 5px #aaaaaa;
+  border: 2px solid white;
+  border-bottom: 2px solid #424141;
+  border-right: 2px solid #424141;
 }
 @media only screen and (max-width: 600px) {
   .window{
