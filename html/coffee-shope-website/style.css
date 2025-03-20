@@ -22,7 +22,7 @@ li a{
     padding: 10px;
     color: white;
 }
-li a:hover{
+nav li a:hover{
     background-color: rgb(221, 195, 81);
 }
 h1{
@@ -31,6 +31,11 @@ h1{
 main li{
     margin: 10px, 0px;
     text-align: center; 
+    line-height: 1.5;
+}
+main li a:hover{
+    color: rgb(221, 195, 81);
+    text-decoration: underline;
 }
 figure{
     width: 100%; /* Responsive images */
