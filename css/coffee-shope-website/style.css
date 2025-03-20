@@ -1,83 +1,96 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-background-color: rgb(83, 83, 83);;
-color: white;
+body {
+  background-color: rgb(83, 83, 83);
+  color: white;
+  align-items: center;
 }
-nav{
-   background-color:black; 
-    margin-bottom: 20px;
-
+nav {
+  background-color: black;
+  margin-bottom: 20px;
 }
-nav ul li{
-    display: inline-block;
-    padding: 10px;
-    margin: 10px 20px;
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 20px;
 }
-li a{
-    text-decoration: none;
-    padding: 10px;
-    color: white;
+li a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
 }
-nav li a:hover{
-    background-color: rgb(221, 195, 81);
+nav li a:hover {
+  background-color: rgb(221, 195, 81);
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
 }
-main li{
-    margin: 10px, 0px;
-    text-align: center; 
-    line-height: 1.5;
+main li {
+  margin: 10px, 0px;
+  text-align: center;
+  line-height: 1.5;
 }
-main li a:hover{
-    color: rgb(221, 195, 81);
-    text-decoration: underline;
+main li a:hover {
+  color: rgb(221, 195, 81);
+  text-decoration: underline;
 }
-figure{
-    width: 100%; 
-    max-width: 500px; 
-    margin: 10px auto; 
+figure {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto;
 }
-figure img{
-   border-radius: 10px;
-   max-height: 400px;
-   
+figure img {
+  border-radius: 10px;
+  max-height: 400px;
 }
-form{
-    background-color: rgb(83, 83, 83);
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
+form {
+  background-color: rgb(83, 83, 83);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
 }
-input ,textarea{
-    width: 100%; 
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    border: 1px solid #ccc; 
+h2{
+    margin-bottom: 10px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 button {
-    margin: 20px 0px;
-    background-color: #0066cc; 
-    color: #fff; 
-    padding: 10px 30px;
-    border: none;
-    border-radius: 5px; 
-    cursor: pointer; 
+  margin: 20px 0px;
+  background-color: #0066cc;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 @media only screen and (max-width: 600px) {
-    figure{
-        max-height: 400px;
-    
-    }
-    figure img{
-       border-radius: 10px;
-      align-items: center;
-       max-width: 350px;
-       
-    }
+  figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
+  form {
+    margin: 30px;
+    font-size: 15px;
+  }
+  input,
+  textarea {
+    padding: 7px;
+    margin: 10px 0;
+  }
+  button {
+  display: block;
+  margin: 0 auto;
+  }
+}
