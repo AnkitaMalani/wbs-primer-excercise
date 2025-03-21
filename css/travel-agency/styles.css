@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Chiswick, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #131313;
+  background-color: #f3ebe1;
+}
+.nav-link {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: right;
+  margin: 20px;
+ 
+}
+.nav-link a {
+  text-decoration: none;
+  color: #131313;
+  padding: 12px;
+}
+.dropdown {
+    display: none;
+}
+
+/* #hero-video{
+   object-position: center;
+   object-fit: cover;
+   max-width: 100%;
+} */
+img {
+  height: 100%;
+  width: 100%;
+}
+h1{
+    text-align: center;
+    margin: 3rem;
+}
+.places {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1.5rem;
+}
+.image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+#Services{
+    align-items: center;
+}
+.service {
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    gap:2rem;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+#Services .info{
+    width: 50%;
+}
+.service img {
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+}
+.service h3 {
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.service p {
+    font-size: 16px;
+    color: #555;
+}
+.f-text{
+    background-color: #827363;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+.footer{
+ display: flex;
+ list-style: none;
+ justify-content: center;
+ gap: 1rem;
+ padding: 20px;
+}
+.footer a{
+    text-decoration: none; 
+    color: white;
+}
+.footer a:hover{
+    color:skyblue;
+    text-decoration:underline;
+}
+.nav-link a:hover{
+    background-color: #827363;
+    border-radius: 10px;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .nav-link {
+        display: none;
+    }
+    .dropdown {
+        display: block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #827363;
+        padding: 10px;
+        border-radius: 5px;
+        color:white
+    }
+    .dropdown:hover .dropdown-content,
+    li {
+        display: block;
+    }
+}
